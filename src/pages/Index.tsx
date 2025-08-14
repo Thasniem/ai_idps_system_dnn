@@ -4,11 +4,14 @@ import { NeuralNetworkStatus } from "@/components/dashboard/NeuralNetworkStatus"
 import { SystemHealth } from "@/components/dashboard/SystemHealth";
 import { ApiInterface } from "@/components/dashboard/ApiInterface";
 import { Shield, Brain, Activity, Database } from "lucide-react";
+import { useRealTimeData } from "@/hooks/useRealTimeData";
 import heroImage from "@/assets/healthcare-network-hero.jpg";
 
 const Index = () => {
+  const { threats, systemMetrics, networkDevices, loading } = useRealTimeData();
+
   return (
-    <div className="min-h-screen bg-background">
+    <div className="bg-background">
       {/* Hero Section */}
       <div className="relative overflow-hidden">
         <div className="absolute inset-0">
@@ -39,7 +42,7 @@ const Index = () => {
                 <div className="text-sm text-muted-foreground">Detection Accuracy</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">1,342</div>
+                <div className="text-2xl font-bold text-primary">{networkDevices.length}</div>
                 <div className="text-sm text-muted-foreground">Protected Devices</div>
               </div>
               <div className="text-center">
