@@ -1,73 +1,74 @@
-# Welcome to your Lovable project
+# Healthcare IDPS - Advanced Neural Network Intrusion Detection
 
-## Project info
+## 📌 Project Info
 
-**URL**: https://lovable.dev/projects/036c4004-5079-4a1a-82bf-a57e04e4b0ae
+An AI-powered Intrusion Detection & Prevention System (IDPS) designed for healthcare environments.
+It provides **real-time threat detection, neural network classification, and specialized protection** for patient data and medical infrastructure.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ⚡ How to Run the Project
 
-**Use Lovable**
+Make sure you have **Node.js** and **npm** installed. If not, install Node.js from [here](https://nodejs.org/).
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/036c4004-5079-4a1a-82bf-a57e04e4b0ae) and start prompting.
+1. **Clone the repository**
 
-Changes made via Lovable will be committed automatically to this repo.
+   ```sh
+   git clone <YOUR_GIT_URL>
+   ```
 
-**Use your preferred IDE**
+2. **Navigate to the project folder**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+   ```sh
+   cd <YOUR_PROJECT_NAME>
+   ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+3. **Install dependencies**
 
-Follow these steps:
+   ```sh
+   npm install
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+4. **Start the development server**
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+   ```sh
+   npm run dev
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+Your project will now be running locally with hot-reloading enabled 🚀
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 🛠️ Tech Stack
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+* **React** (with Vite for fast bundling)
+* **TypeScript**
+* **Tailwind CSS** (for modern styling)
+* **shadcn-ui** (for prebuilt UI components)
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🚀 Deployment
 
-## What technologies are used for this project?
+You can deploy this project easily to platforms like:
 
-This project is built with:
+* **Vercel**
+* **Netlify**
+* **Render**
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Once deployed, you can connect your own **custom domain**.
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/036c4004-5079-4a1a-82bf-a57e04e4b0ae) and click on Share -> Publish.
+## ✨ Features
 
-## Can I connect a custom domain to my Lovable project?
+* Neural network–based intrusion detection
+* Real-time packet analysis & classification
+* Specialized for **healthcare infrastructure & patient data protection**
+* Scalable and lightweight for production environments
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📄 License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is for educational and research purposes. You can extend or customize it for your own needs.
